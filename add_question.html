@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="my.css" rel="stylesheet">
+
+    <script src="data.js"></script>
+    <title>Add Question</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add Question</h1>
+
+        <div class="add_question_form">
+
+            <div class="question_attribute">
+                <label>Δημιουργός</label>
+                <select class="form-select" id="creator"></select>
+            </div>
+
+            <div class="question_attribute">
+                <label>Τύπος Ερώτησης</label>
+                <select class="form-select" id="question_type"></select>
+            </div>
+
+            <div class="question_attribute">
+                <label>Ερώτηση</label>
+                <input class="form-control" id="question">
+            </div>
+
+            <div class="question_attribute">
+                <label>Πόντοι</label>
+                <input class="form-control" id="points" type="number">
+            </div>
+
+            <div class="not_top_5_answer">
+
+                <div class="question_attribute">
+                    <label>Απάντηση</label>
+                    <input class="form-control" id="correct_answer" placeholder="Σωστή απάντηση">
+                    <input class="form-control mt-2" id="50_50_answer" placeholder="50-50 απάντηση">
+                </div>
+
+            </div>
+
+            <div class="top_5_answer">
+                
+                <div class="question_attribute">
+                    <label>1η Θέση</label>
+                    <input class="form-control" id="answer_1">
+                </div>
+                <div class="question_attribute">
+                    <label>2η Θέση</label>
+                    <input class="form-control" id="answer_2">
+                </div>
+                <div class="question_attribute">
+                    <label>3η Θέση</label>
+                    <input class="form-control" id="answer_3">
+                </div>
+                <div class="question_attribute">
+                    <label>4η Θέση</label>
+                    <input class="form-control" id="answer_4">
+                </div>
+                <div class="question_attribute">
+                    <label>5η Θέση</label>
+                    <input class="form-control" id="answer_5">
+                </div>
+
+            </div>
+
+            <div class="add_question_button_div">
+                <button class="btn btn-outline-primary" id="add_question">Προσθήκη</button>
+            </div>
+
+
+        </div>
+    </div>
+    
+</body>
+
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="my.js"></script>
+
+</html>

@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add_question_form{
+    max-width: 1040px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.question_attribute{
+    width: 400px;
+}
+
+.top_5_answer{
+    opacity: 0;
+}
+
+.add_question_button_div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
